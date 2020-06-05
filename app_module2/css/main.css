@@ -1,0 +1,87 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(../font/Roboto-Regular.ttf);
+}
+		
+body{
+	background-color: #efefef;
+	font-family: Roboto;
+}
+ 	
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #fff;
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+
+.photo {
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 20px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+
+}
+
+.photoh:hover {
+	transition: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 0 20px 1px rgba(0,0,0,0.4);
+}
+
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 48px; 
+}
+
+.photso1 {
+	background-image: url(.../img/img1.JPG);
+	}
+.photo2 {
+	background-image: url(.../img/img2.JPG);
+	}
+.photo3 {
+	background-image: url(.../img/img3.JPG);
+	}
+.photo4 {
+	background-image: url(.../img/img4.JPG);
+	}
+.photo5 {
+	background-image: url(.../img/img5.JPG);
+	}
+.photo6 {
+	background-image: url(.../img/img6.JPG);
+	}
+.photo7 {
+	background-image: url(.../img/img7.JPG);
+	}
+.photo8 {
+	background-image: url(.../img/img8.JPG);
+	}
+.photo9 {
+	background-image: url(.../img/img9.JPG);
+	
+}
+.photo10 {
+	background-image: url(.../img/img10.JPG);
+	}
+.photo11 {
+	background-image: url(.../img/img11.JPG);
+	}
+}.photo12 {
+	background-image: url(.../img/img12.JPG);
